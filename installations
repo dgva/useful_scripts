@@ -13,12 +13,3 @@ sudo apt install fonts-firacode
 
 // Install cmatrix
 sudo apt install cmatrix
-
-// Custom bash style
-// Copy the .fancy_bash.sh to ~, and run:
-echo "source ~/.fancy_bash.sh" >> ~/.bashrc
-
-
-// Custom terminator themes
-// Copy the terminator-themes.py to the terminator plugins folder (~/.config/terminator/plugins)
-// Activate it on the plugins tab, on the terminator settings
