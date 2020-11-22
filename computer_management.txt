@@ -1,0 +1,8 @@
+// Automount a drive in the system
+sudo blkid
+sudo mkdir /mnt/(NAME_OF_DRIVE)
+sudo nano /etc/fstab
+// Add this line to the fstab, separated with a TAB
+UUID=<uuid-of-your-drive>  <mount-point>  <file-system-type>  <mount-option>  <dump>  <pass>
+UUID=<uuid-of-ntfs-file-system>   /mnt/ntfs   ntfs   defaults  0  2
+
