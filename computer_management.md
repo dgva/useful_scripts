@@ -18,15 +18,17 @@ sudo nano xampp.desktop
 ```
 Paste this
 ```
+#!/usr/bin/env xdg-open
 [Desktop Entry]
-Encoding=UTF-8
+Comment=Start or Stop XAMPP
 Name=XAMPP Control Panel
-Comment=Start and Stop XAMPP
-Exec=sudo /opt/lampp/manager-linux-x64.run
-Icon=/opt/lampp/htdocs/favicon.ico
-Categories=Application
+Exec=sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sudo /opt/lampp/manager-linux-x64.run"
+Encoding=UTF-8
+Terminal=false
+Name[en_US]=XAMPP Control Panel
+Comment[en_US]=Start or Stop XAMPP GUI
 Type=Application
-Terminal=true
+Icon=xampp
 ```
 
 ## Git config for dual-boot development (Change in both machines)
