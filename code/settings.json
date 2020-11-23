@@ -25,5 +25,8 @@
     "breadcrumbs.enabled": false,
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
     "explorer.compactFolders": false,
-    "workbench.list.openMode": "doubleClick"
+    "workbench.list.openMode": "doubleClick",
+    "projectManager.git.baseFolders": [
+        "/mnt/sda1/Code"
+    ]
 }
