@@ -4,7 +4,7 @@ sudo blkid
 sudo mkdir /mnt/(NAME_OF_DRIVE)
 sudo nano /etc/fstab
 ```
-## Add this line to the fstab, separated with a TAB
+Add this line to the fstab, separated with a TAB
 ```
 UUID=<uuid-of-your-drive>  <mount-point>  <file-system-type>  <mount-option>  <dump>  <pass>
 UUID=<uuid-of-ntfs-file-system>   /mnt/ntfs   ntfs   defaults  0  2
@@ -16,7 +16,7 @@ cd /usr/share/applications
 sudo touch xampp.desktop
 sudo nano xampp.desktop
 ```
-### Paste this
+Paste this
 ```
 [Desktop Entry]
 Encoding=UTF-8

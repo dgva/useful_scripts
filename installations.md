@@ -28,7 +28,7 @@ Download the repo, and run this to install a dependency not mentioned in the REA
 sudo apt install build-essential
 ```
 
-Default config for MX Master 3 (/etc/logid.cfg)
+Default and simple config for MX Master 3 (/etc/logid.cfg)
 ```
 devices: ({
     name: "Wireless Mouse MX Master 3";
