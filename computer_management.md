@@ -41,3 +41,9 @@ git config --global core.eol lf
 ```
 git config --global core.editor "code --wait"
 ```
+
+## Fix QGIs error with i386 architecture
+Find the sources.list, or similar file (On Linux Mint, check the folders in ```/etc/apt```)
+```
+deb [arch=amd64] LINK_TO_REPO
+```
