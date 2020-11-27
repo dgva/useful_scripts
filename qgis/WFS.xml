@@ -1,0 +1,6 @@
+<!DOCTYPE connections>
+<qgsWFSConnections version="1.0">
+    <wfs url="https://agserver.sg.min-economia.pt/arcgis/services/DGEG/CE/MapServer/WFSServer?" username="" referer="" password="" name="DGEG_eolicas"/>
+    <wfs url="https://agserver.sg.min-economia.pt/arcgis/services/DGEG/CS/MapServer/WFSServer" username="" referer="" password="" name="DGEG_solares"/>
+    <wfs url="http://www.igeo.pt/WFS/Geodesia/RGN" username="" referer="" password="" name="Rede Geodésica"/>
+</qgsWFSConnections>
