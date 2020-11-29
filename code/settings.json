@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'Fira Code',  'FreeMono', 'Noto Mono'",
+    "editor.fontFamily": "'Fira Code', 'FreeMono', 'Noto Mono'",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.colorDecorators": false,
@@ -11,6 +11,18 @@
         110,
         120
     ],
+    "[git-commit]": {
+        "editor.rulers": [
+            {
+                "column":   50,
+                "color": "#CC0000"
+            }
+            {
+                "column":   72,
+                "color": "#73D216"
+            }
+        ],
+    },
     "editor.minimap.maxColumn": 80,
     "editor.minimap.renderCharacters": false,
     "workbench.activityBar.iconClickBehavior": "focus",
@@ -29,4 +41,8 @@
     "projectManager.git.baseFolders": [
         "/mnt/sda1/Code"
     ],
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjoyNDAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4MjcsXCJoZWlnaHRcIjoxMTY5fSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
+    "projectManager.any.maxDepthRecursion": 0,
+    "workbench.startupEditor": "none",
+    "window.restoreWindows": "none",
 }
