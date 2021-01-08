@@ -1,9 +1,11 @@
-## Install standard MS fonts (TrueType)
+## Installation stuff
+
+### Install standard MS fonts (TrueType)
 ```
 sudo apt-get install ttf-mscorefonts-installer
 ```
 
-## Install modern MS fonts (ClearType)
+### Install modern MS fonts (ClearType)
 ```
 sudo apt install cabextract
 mkdir ~/.fonts 
@@ -12,17 +14,12 @@ OR
 curl -s http://plasmasturm.org/dl/vistafonts-installer | bash
 ```
 
-## Install FiraCode font
+### Install FiraCode font
 ```
 sudo apt install fonts-firacode
 ```
 
-## Install cmatrix
-```
-sudo apt install cmatrix
-```
-
-## Install logiops
+### Install logiops
 Download the repo, and run this to install a dependency not mentioned in the README
 ```
 sudo apt install build-essential

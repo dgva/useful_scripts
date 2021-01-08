@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'Fira Code', 'FreeMono', 'Noto Mono'",
+    "editor.fontFamily": "'Fira Code', 'FreeMono'",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.colorDecorators": false,
