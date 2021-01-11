@@ -24,4 +24,4 @@ config file for Terminator
 <br>
 
 ### Other
-Other stuff, some installation scripts, other tips, etc
+Other stuff, installation scripts, tips, etc
