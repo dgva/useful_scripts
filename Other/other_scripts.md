@@ -6,14 +6,19 @@ sudo blkid
 sudo mkdir /mnt/(NAME_OF_DRIVE)
 sudo nano /etc/fstab
 ```
-Add this line to the fstab, separated with a TAB
+Add this line to the fstab, separated with a TAB:
 ```
 UUID=<uuid-of-your-drive>  <mount-point>  <file-system-type>  <mount-option>  <dump>  <pass>
 UUID=<uuid-of-ntfs-file-system>   /mnt/ntfs   ntfs   defaults  0  2
 ```
 
-### Add XAMPP to the menu
+### Install other apps, AppImages, etc
+Place the files/folders in ``` /opt```.<br>
+If necessary to add a link in the main menu, follow indications below for XAMPP installation.
+
+#### Add XAMPP to the menu
 ```
+*REQUIRES ROOT PERMISSION*
 cd /usr/share/applications
 sudo touch xampp.desktop
 sudo nano xampp.desktop
@@ -32,6 +37,15 @@ Comment[en_US]=Start or Stop XAMPP GUI
 Type=Application
 Icon=xampp
 ```
+
+#### Install FileZilla Pro
+Similar to XAMPP installation.<br>
+Go to the FileZilla folder, and copy the desktop file in ```share/applications``` to this folder:
+```
+*REQUIRES ROOT PERMISSION*
+cd /usr/share/applications
+```
+Edit the file to point to the binary file and the icon in the FileZilla folder
 
 ### Git config for dual-boot development (Change in both machines)
 ```

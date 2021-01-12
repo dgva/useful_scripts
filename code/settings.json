@@ -16,7 +16,7 @@
             {
                 "column":   50,
                 "color": "#CC0000"
-            }
+            },
             {
                 "column":   72,
                 "color": "#73D216"
@@ -45,4 +45,8 @@
     "projectManager.any.maxDepthRecursion": 0,
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
+    "diffEditor.wordWrap": "off",
+    "html.format.wrapLineLength": 0,
+    "editor.wordWrapColumn": 1,
+    "editor.accessibilitySupport": "off",
 }
