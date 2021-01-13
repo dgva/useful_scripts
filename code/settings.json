@@ -38,15 +38,14 @@
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
     "explorer.compactFolders": false,
     "workbench.list.openMode": "doubleClick",
-    "projectManager.git.baseFolders": [
-        "/mnt/sda1/Code"
-    ],
-    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjoyNDAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4MjcsXCJoZWlnaHRcIjoxMTY5fSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
-    "projectManager.any.maxDepthRecursion": 0,
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "diffEditor.wordWrap": "off",
     "html.format.wrapLineLength": 0,
     "editor.wordWrapColumn": 1,
     "editor.accessibilitySupport": "off",
+    "projectManager.git.baseFolders": [
+        "/mnt/sda1/Code"
+    ],
+    "editor.minimap.showSlider": "always",
 }
