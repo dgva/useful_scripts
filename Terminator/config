@@ -8,8 +8,7 @@
   title_transmit_bg_color = "#ffffff"
   title_inactive_bg_color = "#7b7b7b"
   inactive_color_offset = 1.0
-  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
-  always_split_with_profile = True
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler
 [keybindings]
 [profiles]
   [[default]]
@@ -21,22 +20,4 @@
     scrollback_infinite = True
     palette = "#202020:#ef2929:#0cbb00:#edbd00:#ef2929:#edbd00:#edbd00:#ffffff:#000000:#ef2929:#0cbb00:#edbd00:#ef2929:#edbd00:#edbd00:#ffffff"
 [layouts]
-  [[default]]
-    [[[child0]]]
-      type = Window
-      parent = ""
-      order = 0
-      position = 0:0
-      maximised = True
-      fullscreen = False
-      size = 1920, 1022
-      title = degovialx@degovialx-mint:~
-      last_active_term = 9bea8051-5eaf-4a40-b3b3-3f39b6cdd43e
-      last_active_window = True
-    [[[terminal1]]]
-      type = Terminal
-      parent = child0
-      order = 0
-      profile = default
-      uuid = 9bea8051-5eaf-4a40-b3b3-3f39b6cdd43e
 [plugins]
