@@ -2,7 +2,7 @@
 # Default settings from .zsh installation
 
 # Lines configured by zsh-newuser-install
-HISTFILE=/temp/.histfile
+HISTFILE=/tmp/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 # bindkey -e
