@@ -2,7 +2,7 @@
 # Default settings from .zsh installation
 
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+HISTFILE=/temp/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 # bindkey -e
@@ -39,24 +39,35 @@ PROMPT='%F{#009CFF}|%D - %*|%f %F{#EDBD00}%M%f in %F{#0CBB00}%~%f $(git_branch)'
 
 export EDITOR=gedit
 
+## General alias
 alias sd='sudo '
-alias editzsh='$EDITOR ~/.zshrc'
-alias sourcezsh='source ~/.zshrc'
+alias edzsh='$EDITOR ~/.zshrc'
+alias srzsh='source ~/.zshrc'
 alias lf='ls -AlhF'
-alias mydata='cd /mnt/sda1/'
 alias aptdate='sudo apt update && apt list --upgradable'
 alias aptgrade='sudo apt upgrade'
 alias aptrem='sudo apt autoclean && apt autoremove'
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit'
+alias gp='git push'
+## Personal alias
+alias nemohere='nemo ./'
+alias startlampp='sudo /opt/lampp/lampp start'
+alias stoplampp='sudo /opt/lampp/lampp stop'
+alias guilampp='cd /opt/lampp && sudo ./manager-linux-x64.run'
+## Folders/links alias
 alias ..='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 alias ..4='cd ../../../..'
 alias ..5='cd ../../../../..'
-alias gs='git status'
-alias ga='git add .'
-alias gc='git commit'
-alias gp='git push'
-alias startlampp='sudo /opt/lampp/lampp start'
-alias stoplampp='sudo /opt/lampp/lampp stop'
-alias guilampp='cd /opt/lampp && sudo ./manager-linux-x64.run'
+alias mydata='cd /mnt/sda1/'
+alias mycode='cd /mnt/sda1/Code/'
+alias mygis='cd /mnt/sda1/GIS/'
+alias mydocs='cd /mnt/sda1/Docs/'
+alias mymusic='cd /mnt/sda1/Music/'
+alias myvids='cd /mnt/sda1/Vids/'
+alias mygaming='cd /mnt/sda1/Gaming/'
+
 ################################################################################
