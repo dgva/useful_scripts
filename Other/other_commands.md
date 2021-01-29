@@ -15,6 +15,7 @@ Trailing slashes, on the end of the paths, allow for syncrionizing only the cont
 
 ```
 rsync --archive -AX --verbose --progress --human-readable 'SOURCE' 'DESTINATION'
+rsync -aAxvph 'SOURCE' 'DESTINATION'
 ```
 
 Optional
