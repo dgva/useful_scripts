@@ -33,3 +33,6 @@ devices: ({
     dpi: 1000;
 });
 ```
+
+### External repos
+To install DBeaver, Keepassxc, use official PPA from their website. It is mor up-to-date than the distribution's repositories.

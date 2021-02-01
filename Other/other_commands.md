@@ -8,6 +8,10 @@ Command to check I/O activity. Useful for whatching over disk activity during ba
 sudo iotop -o
 ```
 
+### htop
+Cool utility, more visual than `top`! Does not require `sudo` like iotop, and shows CPU activity.
+
+
 ### rsync
 Useful for making backups and syncing data over drives and network.
 Here are some of the more useful options for my personal use.<br>
@@ -15,7 +19,7 @@ Trailing slashes, on the end of the paths, allow for syncrionizing only the cont
 
 ```
 rsync --archive -AX --verbose --progress --human-readable 'SOURCE' 'DESTINATION'
-rsync -aAxvph 'SOURCE' 'DESTINATION'
+rsync -aAXvh --progress 'SOURCE' 'DESTINATION'
 ```
 
 Optional
