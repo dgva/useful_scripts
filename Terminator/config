@@ -1,15 +1,59 @@
 [global_config]
   geometry_hinting = True
   window_state = maximise
-  borderless = True
   title_hide_sizetext = True
   title_transmit_fg_color = "#000000"
   title_transmit_bg_color = "#ffffff"
   title_inactive_bg_color = "#7b7b7b"
   inactive_color_offset = 0.5061728395061729
 [keybindings]
+  new_tab = None
+  go_next = None
+  go_prev = None
+  go_up = None
+  go_down = None
+  go_left = None
+  go_right = None
+  rotate_cw = None
+  rotate_ccw = None
+  close_term = None
+  toggle_scrollbar = None
+  search = None
+  line_up = Page_Up
+  line_down = Page_Down
+  close_window = None
+  resize_up = None
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  move_tab_right = None
+  move_tab_left = None
+  toggle_zoom = None
+  scaled_zoom = None
+  next_tab = None
+  prev_tab = None
+  reset = None
+  reset_clear = None
+  hide_window = None
+  group_all = None
+  ungroup_all = None
+  group_tab = None
+  ungroup_tab = None
+  new_window = None
+  new_terminator = None
+  broadcast_off = None
+  broadcast_group = None
+  broadcast_all = None
+  insert_number = None
+  insert_padded = None
+  edit_window_title = None
+  edit_tab_title = None
+  edit_terminal_title = None
+  layout_launcher = None
 [profiles]
   [[default]]
+    audible_bell = True
+    urgent_bell = True
     background_darkness = 0.9
     background_type = transparent
     cursor_color = "#b4b4b4"
@@ -26,14 +70,14 @@
       position = 0:0
       maximised = True
       fullscreen = False
-      size = 1920, 1050
+      size = 1920, 1022
       title = /usr/bin/zsh
-      last_active_term = 232f3f45-3927-4a86-a95c-87384b04a070
+      last_active_term = 7a413ad2-7d37-4e8c-946b-fc901251d8eb
       last_active_window = True
     [[[terminal1]]]
       type = Terminal
       parent = child0
       order = 0
       profile = default
-      uuid = 232f3f45-3927-4a86-a95c-87384b04a070
+      uuid = 7a413ad2-7d37-4e8c-946b-fc901251d8eb
 [plugins]

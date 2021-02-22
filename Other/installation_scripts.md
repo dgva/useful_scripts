@@ -1,4 +1,4 @@
-## Installation stuff
+# Installation stuff
 
 ### Install standard MS fonts (TrueType)
 ```
@@ -35,4 +35,4 @@ devices: ({
 ```
 
 ### External repos
-To install DBeaver, Keepassxc, use official PPA from their website. It is mor up-to-date than the distribution's repositories.
+To install DBeaver, Keepassxc, use official PPA from their website. It is more up-to-date than the distribution's repositories.
