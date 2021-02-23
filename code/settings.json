@@ -23,8 +23,6 @@
             }
         ],
     },
-    "editor.minimap.maxColumn": 80,
-    "editor.minimap.renderCharacters": false,
     "workbench.activityBar.iconClickBehavior": "focus",
     "explorer.openEditors.visible": 0,
     "telemetry.enableCrashReporter": false,
@@ -47,5 +45,7 @@
     "projectManager.git.baseFolders": [
         "/mnt/sda1/Code"
     ],
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
 }

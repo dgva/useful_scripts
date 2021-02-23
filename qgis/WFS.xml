@@ -1,6 +1,7 @@
 <!DOCTYPE connections>
-<qgsWFSConnections version="1.0">
-    <wfs url="https://agserver.sg.min-economia.pt/arcgis/services/DGEG/CE/MapServer/WFSServer?" username="" referer="" password="" name="DGEG_eolicas"/>
-    <wfs url="https://agserver.sg.min-economia.pt/arcgis/services/DGEG/CS/MapServer/WFSServer" username="" referer="" password="" name="DGEG_solares"/>
-    <wfs url="http://www.igeo.pt/WFS/Geodesia/RGN" username="" referer="" password="" name="Rede Geodésica"/>
+<qgsWFSConnections version="1.1">
+    <wfs pagingenabled="false" ignoreAxisOrientation="false" username="" version="" name="DGEG_eolicas" password="" maxnumfeatures="" invertAxisOrientation="false" url="https://agserver.sg.min-economia.pt/arcgis/services/DGEG/CE/MapServer/WFSServer?" pagesize=""/>
+    <wfs pagingenabled="false" ignoreAxisOrientation="false" username="" version="" name="DGEG_solares" password="" maxnumfeatures="" invertAxisOrientation="false" url="https://agserver.sg.min-economia.pt/arcgis/services/DGEG/CS/MapServer/WFSServer" pagesize=""/>
+    <wfs pagingenabled="false" ignoreAxisOrientation="false" username="" version="" name="Rede Geodésica" password="" maxnumfeatures="" invertAxisOrientation="false" url="http://www.igeo.pt/WFS/Geodesia/RGN" pagesize=""/>
+    <wfs pagingenabled="true" ignoreAxisOrientation="false" username="" version="auto" name="Rede_hidrografica_geocodificada_INSPIRE" password="" maxnumfeatures="" invertAxisOrientation="false" url="https://inspire.apambiente.pt/getogc/rest/services/INSPIRE/HY_Network_WatercourseLink/MapServer/exts/InspireFeatureDownload/service?VERSION=2.0" pagesize=""/>
 </qgsWFSConnections>
